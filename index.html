@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d1c">
+  <title>Вардан | Digital Business Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      padding: 35px 18px;
+      font-family: Arial, sans-serif;
+      color: white;
+      background:
+        radial-gradient(circle at 20% 10%, #25235b 0, transparent 35%),
+        radial-gradient(circle at 90% 80%, #142d58 0, transparent 35%),
+        #090d1c;
+    }
+
+    .container {
+      max-width: 440px;
+      margin: 0 auto;
+    }
+
+    .profile {
+      text-align: center;
+      padding: 30px 15px;
+      margin-bottom: 22px;
+      border: 1px solid #ffffff18;
+      border-radius: 25px;
+      background: #ffffff08;
+      backdrop-filter: blur(15px);
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 18px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 38px;
+      font-weight: bold;
+      background: linear-gradient(135deg, #247cff, #a34dff);
+      box-shadow: 0 0 35px #637dff70;
+    }
+
+    .avatar {
+  overflow: hidden;
+  border: 3px solid #748cff;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+    h1 {
+      font-size: 30px;
+      letter-spacing: 2px;
+    }
+
+    .subtitle {
+      margin-top: 9px;
+      color: #aab3ce;
+      font-size: 14px;
+    }
+
+    .section-title {
+      margin: 25px 0 15px;
+      font-size: 14px;
+      color: #aab3ce;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 13px;
+    }
+
+    .social {
+      min-height: 105px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid #ffffff18;
+      border-radius: 18px;
+      background: #ffffff0b;
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+      transition: 0.25s;
+    }
+
+    .social:hover {
+      transform: translateY(-5px);
+      background: #ffffff18;
+      border-color: #748cff;
+      box-shadow: 0 8px 25px #526fff25;
+    }
+
+    .social .icon {
+      font-size: 32px;
+    }
+
+    .vk { color: #62a7ff; }
+    .telegram { color: #35baf5; }
+    .facebook { color: #5793ff; }
+    .whatsapp { color: #36dc83; }
+    .instagram { color: #ff78bb; }
+    .max { color: #a68cff; }
+
+    .disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .contact-button {
+      display: block;
+      width: 100%;
+      margin-top: 22px;
+      padding: 17px;
+      border: none;
+      border-radius: 16px;
+      color: white;
+      background: linear-gradient(100deg, #287cff, #8954f5);
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .contact-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px #526fff55;
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      color: #78839e;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+    .social .icon {
+  font-size: 42px;
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+
+.social:hover .icon {
+  transform: scale(1.2);
+}
+
+.vk { color: #0077ff; }
+.telegram { color: #27a7e7; }
+.facebook { color: #1877f2; }
+.whatsapp { color: #25d366; }
+
+.instagram {
+  color: #e4405f;
+}
+    
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <section class="profile">
+      <div class="avatar">
+  <img src="images/avatar.jpg" alt="Фото Вардана">
+</div>
+      <h1>ВАРДАН</h1>
+      <p class="subtitle">Добро пожаловать в мою цифровую визитку</p>
+    </section>
+
+    <h2 class="section-title">Мои социальные сети</h2>
+
+    <section class="grid">
+
+      <a class="social" href="https://vk.ru/vardan200122"
+         target="_blank" rel="noopener noreferrer">
+       <i class="fa-brands fa-vk icon vk"></i>
+        ВКонтакте
+      </a>
+
+      <a class="social" href="https://t.me/vardan0904"
+         target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-telegram icon telegram"></i>
+        Telegram
+      </a>
+
+      <a class="social"
+         href="https://www.facebook.com/share/1Kqj4FXVKe/?mibextid=wwXIfr"
+         target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook icon facebook"></i>
+        Facebook
+      </a>
+
+      <a class="social"
+         href="https://wa.me/79782994137"
+         target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp icon whatsapp"></i>
+        WhatsApp
+      </a>
+
+      <a class="social"
+         href="https://www.instagram.com/vardanmamikonian_?fqnt=MWkxN2UyY2U2Nzd4aw%3D%3D&utm_source=qr"
+         target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram icon instagram"></i>
+        Instagram
+      </a>
+
+    </section>
+
+    <button class="contact-button" onclick="saveContact()">
+      👤 Сохранить мой контакт
+    </button>
+    <button class="contact-button share-button" onclick="shareCard()">
+        <i class="fa-solid fa-share-nodes"></i> Поделиться визиткой
+    </button>
+
+    <footer>
+      DIGITAL BUSINESS CARD · NFC
+    </footer>
+
+  </main>
+
+  <script>
+      async function shareCard() {
+  const shareData = {
+    title: "Визитка Вардана",
+    text: "Мои контакты и социальные сети",
+    url: window.location.href
+  };
+
+  if (navigator.share) {
+    await navigator.share(shareData);
+  } else {
+    await navigator.clipboard.writeText(window.location.href);
+    alert("Ссылка скопирована!");
+  }
+}
+    function saveContact() {
+      const vcard = [
+        "BEGIN:VCARD",
+        "VERSION:3.0",
+        "FN:Вардан",
+        "TEL;TYPE=CELL:+79782994137",
+        "URL:https://vk.ru/vardan200122",
+        "URL:https://t.me/vardan0904",
+        "URL:https://www.instagram.com/vardanmamikonian_/",
+        "END:VCARD"
+      ].join("\r\n");
+
+      const blob = new Blob(
+        [vcard],
+        { type: "text/vcard;charset=utf-8" }
+      );
+
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+
+      link.href = url;
+      link.download = "Vardan.vcf";
+      link.click();
+
+      URL.revokeObjectURL(url);
+    }
+  </script>
+
+</body>
+</html>
